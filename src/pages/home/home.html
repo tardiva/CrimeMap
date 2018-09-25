@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons end>
+    <button ion-button icon-only (click)="openSettings()">
+      <ion-icon name="search"></ion-icon>
+    </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<div #gmap style="width:100vw;height:100vh"></div>
+
+<div>{{isZoomButtonShown}}</div>
+
+<ion-footer #zoom no-border *ngIf="isZoomBtnShown">
+  <button  ion-button color="light" full (click)="zoomMap()">Tap to zoom to crimes</button>
+</ion-footer>
+
+

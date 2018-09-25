@@ -1,0 +1,7 @@
+{
+  "name": "CrimeMap",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
